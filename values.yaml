@@ -15,8 +15,8 @@ image:
 
 args:
   - lighthouse
-  - --network=mainnet
   - beacon_node
+  - --network=mainnet
   - --datadir=/data
   - --http
   - --http-address=0.0.0.0
