@@ -1,5 +1,12 @@
 ### Lighthouse Helm Chart
 
+#### Installation
+
+```
+helm install lighthouse ./helm-lighthouse
+```
+
+#### Chart Configuration
 
 Args
 
