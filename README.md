@@ -3,7 +3,7 @@
 #### Installation
 
 ```
-helm install lighthouse ./helm-lighthouse
+helm install --namespace blockchain lighthouse ./helm-lighthouse
 ```
 
 #### Chart Configuration

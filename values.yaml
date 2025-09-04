@@ -1,4 +1,4 @@
-# Default values for plex-lighthouse.
+# Default values for lighthouse.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -15,13 +15,13 @@ image:
 
 args:
   - lighthouse
-  - beacon_node
   - --network=mainnet
+  - beacon_node
   - --datadir=/data
   - --http
   - --http-address=0.0.0.0
   - --http-port=5052
-  - --execution-endpoint=http://plex-geth:8551
+  - --execution-endpoint=http://geth:8551
   - --execution-jwt=/jwt/jwt.hex
   - --checkpoint-sync-url=https://mainnet-checkpoint-sync.attestant.io
   - --metrics
